@@ -1,0 +1,22 @@
+.movie_info_div {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.poster_div {
+  margin-right: 30px;
+}
+
+.genres_list {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+
+.genres_item {
+  margin-right: 10px;
+}
+
+.genres_percentage {
+  font-weight: normal;
+}

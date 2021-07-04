@@ -1,0 +1,27 @@
+.navig_list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 23px;
+}
+
+.NavLink {
+  text-decoration: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.NavLink--active {
+  text-decoration: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.NavLink:hover,
+.NavLink:focus {
+  text-decoration-line: underline;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav_item {
+  margin-right: 40px;
+}
